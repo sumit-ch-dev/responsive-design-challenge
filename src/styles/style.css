@@ -1,0 +1,58 @@
+.scareCrow {
+    /* position: left*/
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 75%;
+    left: 10px;
+    top: 10px;
+
+}
+
+.badNews {
+    position: absolute;
+    float: right;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 10px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.detail {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 300px;
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+
+
+}
+
+.button {
+
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 500px;
+
+    /* Gray 1 */
+    background: #333333;
+}
